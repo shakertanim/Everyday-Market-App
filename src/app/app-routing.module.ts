@@ -4,12 +4,13 @@ import { CategoryMenuComponent } from './market/category-menu/category-menu.comp
 import {CategoryMenuItemComponent} from "./market/category-menu-item/category-menu-item.component";
 import {AppComponent} from "./app.component";
 import {HomeComponent} from "./core/home/home.component";
+import {ProductsPageComponent} from "./market/products-page/products-page.component";
 const routes: Routes = [{
   path: 'home',
   component: HomeComponent
 },{
-  path: 'category-menu-items',
-  component: CategoryMenuItemComponent
+  path: 'product-page',
+  component: ProductsPageComponent
 }];
 
 @NgModule({
